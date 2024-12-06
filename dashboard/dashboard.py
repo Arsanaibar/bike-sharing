@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 from matplotlib.colors import Normalize
 
 def load_data():
-    day_df = pd.read_csv("../data/day.csv")
-    hour_df = pd.read_csv("../data/hour.csv")
+    day_df = pd.read_csv("day.csv")
+    hour_df = pd.read_csv("hour.csv")
     return day_df, hour_df
 
 def plot_weather_rentals(day_df):
