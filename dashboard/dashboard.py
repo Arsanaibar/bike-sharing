@@ -7,8 +7,8 @@ import os
 from matplotlib.colors import Normalize
 
 def load_data():
-    file_path_day = os.path.join(os.getcwd(), 'day.csv')
-    file_path_hour = os.path.join(os.getcwd(), 'hour.csv')
+    file_path_day = os.path.join(os.getcwd(), 'data', 'day.csv')
+    file_path_hour = os.path.join(os.getcwd(), 'data', 'hour.csv')
     day_df = pd.read_csv(file_path_day)
     hour_df = pd.read_csv(file_path_hour)
     return day_df, hour_df
