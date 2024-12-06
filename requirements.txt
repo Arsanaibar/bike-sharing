@@ -3,5 +3,3 @@ pandas
 numpy 
 seaborn 
 matplotlib
-matplotlib
-os
